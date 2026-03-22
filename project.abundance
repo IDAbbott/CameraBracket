@@ -26,11 +26,12 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 27
+          "ioValue": 27,
+          "currentEquation": "27"
         },
         {
           "name": "y length",
-          "ioValue": 50
+          "ioValue": 70
         }
       ]
     },
@@ -46,8 +47,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 50
         }
       ]
     },
@@ -99,8 +99,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
@@ -132,8 +131,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 27,
-          "currentEquation": "27"
+          "ioValue": 27
         },
         {
           "name": "y length",
@@ -221,8 +219,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 25,
-          "currentEquation": "25"
+          "ioValue": 25
         }
       ]
     },
@@ -242,8 +239,7 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
@@ -253,8 +249,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3438356164383562,
-      "y": 0.15180722891566265,
+      "x": 0.4137931034482759,
+      "y": 0.10126582278481013,
       "uniqueID": "id-62",
       "ioValues": [
         {
@@ -268,7 +264,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 25
+          "ioValue": 35
         },
         {
           "name": "zDist",
@@ -312,8 +308,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": -5,
-          "currentEquation": "-5"
+          "ioValue": -5
         }
       ]
     },
@@ -362,6 +357,82 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "CameraBracket"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.41590429275158336,
+      "y": 0.35443037974683544,
+      "uniqueID": "id-153",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -13
+        },
+        {
+          "name": "yDist",
+          "ioValue": 25,
+          "currentEquation": "25"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.41238564391273747,
+      "y": 0.2088607594936709,
+      "uniqueID": "id-159",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 13
+        },
+        {
+          "name": "yDist",
+          "ioValue": 25,
+          "currentEquation": "25"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.2955665024630542,
+      "y": 0.25738396624472576,
+      "uniqueID": "id-165",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -404,6 +475,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-34",
       "ap2ID": "id-62"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-34",
+      "ap2ID": "id-165"
     },
     {
       "ap2Name": "geometry1",
@@ -459,6 +535,16 @@
       "ap2Name": "geometry2",
       "ap1ID": "id-78",
       "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-165",
+      "ap2ID": "id-159"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-165",
+      "ap2ID": "id-153"
     }
   ],
   "unitsKey": "MM",
