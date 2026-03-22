@@ -142,8 +142,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.27375087966220973,
-      "y": 0.11181434599156118,
+      "x": 0.27515833919774807,
+      "y": 0.10548523206751054,
       "uniqueID": "id-34",
       "ioValues": [
         {
@@ -152,14 +152,14 @@
         },
         {
           "name": "height",
-          "ioValue": 50
+          "ioValue": 48
         }
       ]
     },
     {
       "atomType": "Assembly",
-      "x": 0.5525114155251142,
-      "y": 0.2891566265060241,
+      "x": 0.5587614356087263,
+      "y": 0.2890295358649789,
       "uniqueID": "id-38",
       "ioValues": [
         {
@@ -449,13 +449,13 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.09711470795214637,
+      "x": 0.0992258972554539,
       "y": 0.24261603375527424,
       "uniqueID": "id-171",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 25
+          "ioValue": 20
         },
         {
           "name": "y length",
@@ -466,8 +466,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.19711470795214636,
-      "y": 0.24261603375527424,
+      "x": 0.19634060520760027,
+      "y": 0.2257383966244726,
       "uniqueID": "id-175",
       "ioValues": [
         {
@@ -476,7 +476,7 @@
         },
         {
           "name": "height",
-          "ioValue": 50
+          "ioValue": 45
         }
       ]
     },
@@ -550,12 +550,12 @@
         },
         {
           "name": "yDist",
-          "ioValue": 39,
-          "currentEquation": "39"
+          "ioValue": 37.6
         },
         {
           "name": "zDist",
-          "ioValue": 28
+          "ioValue": 28,
+          "currentEquation": "28"
         }
       ]
     }
